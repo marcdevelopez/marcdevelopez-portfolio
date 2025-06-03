@@ -1,103 +1,53 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main className="p-8 text-gray-900 dark:text-gray-100">
+      <h1 className="text-4xl font-bold mb-6">About Me</h1>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      <p className="mb-4">
+        Hi! I'm <strong>Marc García</strong>, a cross-platform mobile app developer focused on building functional and scalable solutions using <strong>Flutter</strong>.
+      </p>
+
+      <p className="mb-4">
+        After earning my European degree in <strong>Multiplatform App Development (DAM)</strong>, I made a big decision:
+        I took a two-year leave of absence from my previous job to fully focus on my passion — turning software development from a personal hobby into a professional career.
+      </p>
+
+      <p className="mb-4">
+        I'm currently leading <strong>ShuttleBiz</strong>, a Flutter-based mobile app that helps groups of people coordinate shuttle rides with real-time chat and maps.
+        I work daily in structured Pomodoro blocks to grow my skills, build my portfolio, and contribute to meaningful projects.
+      </p>
+
+      <p className="mb-4">
+        To further expand my knowledge, I'm also studying for a <strong>Bachelor's Degree in Computer Engineering</strong> through <strong>UNED (Spain’s National Distance Education University)</strong>, based in Málaga.
+        This helps me deepen my academic foundation while staying fully active in real-world development.
+      </p>
+
+      <p className="mb-4">
+        Alongside my main project, I'm developing <strong>small experimental apps</strong> to test features and gain confidence with the tools I plan to use in ShuttleBiz.
+        These mini-projects help me reduce errors in the main app and sharpen my practical understanding.
+      </p>
+
+      <p className="mb-4">
+        If you find value in those experiments, feel free to <strong>reach out for collaboration</strong>, suggest improvements, or even hire me to help develop your own app ideas —
+        whether it's a small feature, a prototype, or a complete application based on what I already know how to build.
+      </p>
+
+      <p className="mb-4">
+        In addition, I'm deeply interested in learning and perfecting the development of <strong>online stores and e-commerce platforms</strong>.
+        My goal is to help people and small businesses bring their products or services to the world — directly, without intermediaries.
+        While I respect large platforms like Amazon, I believe there's room for specialized, independent solutions.
+        If that's your vision too, I'm here to help you make it happen. I've got the time, energy, and passion to build meaningful digital tools.
+      </p>
+
+      <p className="mb-4">
+        🔍 I'm currently open to <strong>remote or freelance opportunities</strong>, and I'm always eager to collaborate, learn, and bring real value through clean code and thoughtful design.
+      </p>
+
+      <p>
+        Let's connect!
+      </p>
+    </main>
   );
 }
+
+
