@@ -24,9 +24,9 @@ export default function Home() {
 
       <p className="mb-4">
         {"To further expand my knowledge, I'm also studying for a "}
-        <strong>Bachelor's Degree in Computer Engineering</strong>
+        <strong>Bachelor&apos;s Degree in Computer Engineering</strong>
         {" through "}
-        <strong>UNED (Spain’s National Distance Education University)</strong>
+        <strong>UNED (Spain&apos;s National Distance Education University)</strong>
         {", based in Málaga. This helps me deepen my academic foundation while staying fully active in real-world development."}
       </p>
 

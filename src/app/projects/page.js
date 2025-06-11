@@ -1,7 +1,7 @@
 // Esta línea exporta la función como página pública.
 // `default` significa que es la función principal del archivo.
 // Esta función es un "componente" en React. Representa una página entera.
-export default function () {
+export default function ProjectsPage() {
   // Dentro de la función, devolvemos el contenido que queremos mostrar
   // Devolvemos un bloque JSX (como HTML con superpoderes de JavaScript).
   return (
