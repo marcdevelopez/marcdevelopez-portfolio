@@ -5,7 +5,7 @@ export default function Home() {
 
       <p className="mb-4">
         {"Hi! I'm "}
-        <strong>Marc García</strong>
+        <strong>Marcos García</strong>
         {", a cross-platform mobile app developer focused on building functional and scalable solutions using "}
         <strong>Flutter</strong>.
       </p>
