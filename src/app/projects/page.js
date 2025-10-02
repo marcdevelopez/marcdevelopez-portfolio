@@ -26,21 +26,45 @@ export default function ProjectsPage() {
           </a>
         </div>
 
-        {/* Mini Experiments */}
+        {/* Flutter & Dart Labs */}
         <div className="border border-gray-300 dark:border-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md transition">
-          <h2 className="text-2xl font-semibold mb-2">✏️ Mini Experiments</h2>
+          <h2 className="text-2xl font-semibold mb-2">
+            📚 Flutter & Dart Labs
+          </h2>
           <p className="mb-4">
-            Small Flutter or frontend apps to test features like auth, maps, UI
-            design, form validation, and integration before applying them to
-            larger projects.
+            A structured learning repo to explore Flutter and Dart fundamentals.
+            Includes mini-labs for UI, logic, navigation, state, HTTP, and
+            real-world features. Ideal for practicing before applying to larger
+            projects like ShuttleBiz.
           </p>
           <a
-            href="https://github.com/marcdevelopez?tab=repositories&q=mini&type=source"
+            href="https://github.com/marcdevelopez/flutter-dart-labs"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 dark:text-blue-400 underline"
           >
-            View mini projects on GitHub →
+            View on GitHub →
+          </a>
+        </div>
+
+        {/* Flutter Map Experiments */}
+        <div className="border border-gray-300 dark:border-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+          <h2 className="text-2xl font-semibold mb-2">
+            🗺️ Flutter Map Experiments
+          </h2>
+          <p className="mb-4">
+            Practice project with the flutter_map package. Shows current
+            location, lets you enter a destination, and draws a route using
+            external APIs. Uses a clean, modular structure and Git flow with
+            feature branches.
+          </p>
+          <a
+            href="https://github.com/marcdevelopez/flutter_map_experiments"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 dark:text-blue-400 underline"
+          >
+            View on GitHub →
           </a>
         </div>
       </div>
