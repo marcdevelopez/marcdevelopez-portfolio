@@ -15,7 +15,7 @@ export default function ProjectsPage() {
         <div className="border border-gray-300 dark:border-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md transition">
           <div className="flex items-center mb-2">
             <Image
-              src="/images/projects/hand-icon-strong.png"
+              src="/images/projects/hand-icon-strong-color.svg"
               alt="ShuttleBiz Icon"
               width={32}
               height={32}
