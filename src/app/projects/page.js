@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 // Esta línea exporta la función como página pública.
 // `default` significa que es la función principal del archivo.
 // Esta función es un "componente" en React. Representa una página entera.
@@ -11,7 +13,16 @@ export default function ProjectsPage() {
       <div className="grid gap-6 md:grid-cols-2">
         {/* ShuttleBiz */}
         <div className="border border-gray-300 dark:border-gray-700 rounded-lg p-6 shadow-sm hover:shadow-md transition">
-          <h2 className="text-2xl font-semibold mb-2">🚌 ShuttleBiz</h2>
+          <div className="flex items-center mb-2">
+            <Image
+              src="/images/projects/hand-icon-strong.png"
+              alt="ShuttleBiz Icon"
+              width={32}
+              height={32}
+              className="mr-3"
+            />
+            <h2 className="text-2xl font-semibold">ShuttleBiz</h2>
+          </div>
           <p className="mb-4">
             Flutter-based mobile app for organizing shared shuttle rides, with
             real-time chat, GPS tracking, and seat booking.
