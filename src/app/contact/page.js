@@ -1,3 +1,5 @@
+import { Mail, Linkedin, Github } from "lucide-react";
+
 export default function Contact() {
   return (
     <main className="p-8 text-gray-900 dark:text-gray-100">
