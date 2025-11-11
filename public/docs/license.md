@@ -1,0 +1,45 @@
+# **PRIVATE COLLABORATION LICENSE – SHUTTLEBIZ TEAM**
+
+Copyright (c) 2025 Marc García ([marcdevelopez.com](https://marcdevelopez.com))  
+and the ShuttleBiz Team.
+_All rights reserved._
+
+## **1. PURPOSE**
+
+The source code of this project is made available for **collaborative development** under the direct supervision and written approval of the **ShuttleBiz Team**.  
+This project **is not open source** and **is not licensed under any OSI-approved license**.
+
+## **2. GRANTED RIGHTS**
+
+Permission is granted, on a limited and revocable basis, to:
+
+- View and review the source code for educational or collaboration purposes.
+- Submit contributions (pull requests, issues, or suggestions) **only after written or electronic approval** by the ShuttleBiz Team.
+- Use the code exclusively for joint development within the official ShuttleBiz project.
+
+## **3. RESTRICTIONS**
+
+Without prior written authorization from the authors:
+
+- You may **not copy, modify, redistribute, publish, or reuse** this code in any form, whether whole or partial.
+- You may **not create derivative or commercial works** based on this project.
+- You may **not continue, fork, or replicate** this project independently.
+- All collaboration must occur within **official repositories or communication channels** approved by the ShuttleBiz Team.
+
+## **4. INTELLECTUAL PROPERTY**
+
+All intellectual property rights to the code, design, and related materials belong to  
+**Marc García** and **[name of your other developer]**.  
+Any approved contribution becomes part of the ShuttleBiz project and is governed by the same license.
+
+## **5. TERMINATION**
+
+Violation of any of these terms will **immediately revoke** any granted permissions  
+and may result in **legal action for copyright infringement**.
+
+## **6. CONTACT**
+
+For authorization or collaboration requests:
+
+**Email:** [contact@marcdevelopez.com](mailto:contact@marcdevelopez.com)  
+**Website:** [https://marcdevelopez.com](https://marcdevelopez.com)
