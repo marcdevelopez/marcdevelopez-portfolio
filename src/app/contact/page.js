@@ -1,3 +1,6 @@
+import { Mail, Linkedin, Github } from "lucide-react";
+
+
 export default function Contact() {
   return (
     <main className="p-8 text-gray-900 dark:text-gray-100">
@@ -10,36 +13,25 @@ export default function Contact() {
 
       <ul className="space-y-2">
         <li>
-          📧 Email:{" "}
-          <a
-            href="mailto:marcdevelopez@gmail.com"
-            className="text-blue-600 dark:text-blue-400 underline"
-          >
-            marcdevelopez@gmail.com
-          </a>
-        </li>
-        <li>
-          💼 LinkedIn:{" "}
-          <a
-            href="https://www.linkedin.com/in/marc-garcia-developez"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 dark:text-blue-400 underline"
-          >
-            marc-garcia-developez
-          </a>
-        </li>
-        <li>
-          🧑‍💻 GitHub:{" "}
-          <a
-            href="https://github.com/marcdevelopez"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 dark:text-blue-400 underline"
-          >
-            marcdevelopez
-          </a>
-        </li>
+  <a href="mailto:contacto@marcdevelopez.com" className="flex items-center gap-x-2 text-blue-600 dark:text-blue-400 underline">
+    <Mail className="w-4 h-4" />
+    contacto@marcdevelopez.com
+  </a>
+</li>
+
+<li>
+  <a href="https://www.linkedin.com/in/marc-garcia-developez" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 text-blue-600 dark:text-blue-400 underline">
+    <Linkedin className="w-4 h-4" />
+    marc-garcia-developez
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/marcdevelopez" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 text-blue-600 dark:text-blue-400 underline">
+    <Github className="w-4 h-4" />
+    marcdevelopez
+  </a>
+</li>
       </ul>
     </main>
   );
