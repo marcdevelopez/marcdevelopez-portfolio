@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}", // Asegura que Tailwind analice todos tus archivos fuente
-    "./public/docs/*.md", // Para que reconozca también el contenido de tu license.md si es necesario
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./public/**/*.{md}", // Por si necesitas más adelante leer otros .md
   ],
   theme: {
     extend: {},
